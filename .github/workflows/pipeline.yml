@@ -39,8 +39,8 @@ jobs:
             export KUBECONFIG=/home/ubuntu/.kube/config
 
             cd /home/ubuntu
-            if [ ! -d "jenkins_pipeline_1" ]; then
-              git clone https://github.com/SaiVarun107/jenkins_pipeline_1.git
+            if [ ! -d "HelloWorld_1" ]; then
+              git clone https://github.com/SaiVarun107/HelloWorld_1.git
             fi
 
             cd jenkins_pipeline_1
